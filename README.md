@@ -121,10 +121,9 @@ Read the following sections of the official documentation:
 
 ### Questions
 
-- What is React? Compare it to a couple of alternatives (jQuery, Vue, Angular, etc), tell similarities and differences.
+- What is React? Why some people call it a "framework" and other – a "library"?
 - What is JSX? What problem does it solve?
-- What JSX compiles to? What is Hyperscript? (hing: google "hyperscript jsx" exactly, the term has multiple meanings)
-- Describe different ways to add React to a web page 
+- Describe different ways to add React to a web page.
 
 ### Practice
 
@@ -139,6 +138,12 @@ Note: use props (not state) to add a level of interactivity to the pagination. Y
 let query = (new URL(document.location)).searchParams
 let p = Number(query.get("p")) || 1 // current page
 ```
+
+### Bonus Questions
+
+- What is Hyperscript? (hint: google "hyperscript jsx" exactly, the term has multiple meanings)
+- Compare React to a couple of popular alternatives (jQuery, Vue, Angular, etc), tell similarities and differences.
+- Are there any successors to React? Is it a good idea to use them in production?
 
 ### Bonus Practice
 

@@ -69,12 +69,37 @@ In 2022 hooks are everywhere and there's simply no justification to learn legacy
 It's a shame and embarassment that the documentation of such a popular tool lags far behind the reality. Definitely go for the beta docs 
 and refer to 3rd party sources on necessity. Preserve your time & energy for something that is not outdated.
 
+> What is considered a project solution? 
+
+You should be able to implement a solution independently. You can obviously refer to documentation for something you keep forgetting,
+or to revisit unclear concepts. But you should NOT copy-paste an existing solution and imagine you'd solve it similarly yourself. You'd not.
+
+> Is it ok to ever copy-paste code then?
+
+When you learn, it's more efficient to write the code yourself. It's ok to copy-paste (larger chunks of) code when:
+- you're working on something in hurry 
+- you're an advanced engineer and your goal is to refactor the reference
+- you're going to reverse engineer a complex solution
+
+There is indeed a place for copy-paste but, at the end:
+- you will likely remember what you have written,
+- you will likely forget what you have copied.
+
+> Other tips?
+
+When you're at it, beware that the official documentation is twofold. E.g. https://beta.reactjs.org/learn/adding-interactivity#responding-to-events presents an initial overview and https://beta.reactjs.org/learn/responding-to-events goes into more details on the same topic. We've seen people completely
+omitting the latter page as both things are named identically.
+
+## Links
+
+If you're going to go through this course using TypeScript: https://react-typescript-cheatsheet.netlify.app
+
 ## Table of Contents
 
 - [Section 0: Prerequisites](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-0-prerequisites)
 - [Section 1: React and JSX](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-1-react-and-jsx)
-- [Section 2: States and Updates](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-2-states-and-updates)
-- Section 3: Data Flow(s)
+- [Section 2: States, Events, Updates](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-2-states-events-updates)
+- [Section 3: Data Flow(s)](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-3-data-flows)
 - Section 4: Effects
 - Section 5: Forms 
 - Section 6: Other Topics
@@ -129,10 +154,10 @@ Read the following sections of the official documentation:
 
 Implement and optionally extend the following projects:
 
-- https://react-fundamentals-conds-loops.vercel.app/task1
-- https://react-fundamentals-conds-loops.vercel.app/task2
+- Vertical Menu UI: https://react-fundamentals-conds-loops.vercel.app/task1
+- Pagination UI: https://react-fundamentals-conds-loops.vercel.app/task2
 
-Note: use props (not state) to add a level of interactivity to the pagination. You can access the current page like:
+Note: use props (not state) to add interactivity to both projects (full page reset is expected here). You can access the current page like:
 
 ```js
 let query = (new URL(document.location)).searchParams
@@ -151,7 +176,7 @@ let p = Number(query.get("p")) || 1 // current page
 - Find and compare ALL ways to have a loop in JSX.
 - Implement a `Rating` component using HTML entities `&star;` and `&starf;` (not interactive for now!)
 
-## Section 2: States and Updates
+## Section 2: States, Events, Updates
 
 ### Theory 
 
@@ -167,27 +192,65 @@ Read the following sections of the official documentation:
 - How to represent state in React?
 - Describe the API of `setState`? Is is sync or async?
 - What happens after sequential `setState` calls like `setCounter(1); setCounter(2)`?
-- <button type="button"> vs <button type="submit">
+- Describe the order of rendering of the following hierarchy:
+
+```
+<Component1>
+  <Component2/>
+</Component1>
+```
 
 ### Practice
 
 Implement and optionally extend the following projects:
 
-- https://react-fundamentals-tweet-form.vercel.app
-- https://react-fundamentals-bmi-calculator.vercel.app
-- https://react-fundamentals-rgb.vercel.app
-- https://react-fundamentals-password-generator.vercel.app
+- Tweet Form: https://react-fundamentals-tweet-form.vercel.app
+- BMI Calculator: https://react-fundamentals-bmi-calculator.vercel.app
+- RGB Sliders: https://react-fundamentals-rgb.vercel.app
+- Password Generator: https://react-fundamentals-password-generator.vercel.app
 
 ### Bonus Questions
 
-- What is a "state" of a system in general?
-- How React `setState` batching works?
-- Is is possible to write a code to be executed "exactly after" a state change? 
+- Difference between `<button type="button">` and `<button type="submit">`, regarding React?
+- What is a "state of a system" in general?
+- Compare alternative implementations of the Sliders project: with 1 and 3 `useState` (object of numbers vs separate).
+- Is it possible to write a code to be executed "exactly after" a state change? 
 
 ### Bonus Practice
 
-- Add RGB &harr; CMY switcher to the Sliders project
-- Add "Copy" button to the Password project
+- Extend "RGB Sliders" to support CMY color model
+- Extend "Password Generator" to support password copying (to the clipboard)
+   
+## Section 3: Data Flow(s)
+
+### Theory 
+
+Read the following sections of the official documentation:
+
+- https://beta.reactjs.org/learn/managing-state (topics "Reducer" and "Context" you omitted previously)
+   
+### Questions
+
+- Compare `useState` and `useReducer`: which one is lower level, when to use which?
+- What is React Context? What problem does it solve?
+- Tell the limitations of React context. Hint: what happens with listeners when you update just a part of the context state?
+
+### Practice
+
+- ToDo app: https://react-fundamentals-todo-app.vercel.app (independently from docs, if you haven't yet)
+- Diary app: https://react-fundamentals-diary-app.vercel.app
+- Ecart app: https://react-fundamentals-todo-app.vercel.app
+   
+### Bonus Questions
+
+- Google a topic of "State Management" in React. What problems do they solve?
+- Do you need an extra library like Redux if you have `useState / useReducer`? Try to make your own judgement.
+- Don't miss React-Query and uRQL as alternatives to classic state management solutions.
+
+### Bonus Practice
+
+- Experiment with [Immer](https://github.com/immerjs/immer)
+- Experiment with any state management library e.g. [Zustand](https://github.com/pmndrs/zustand)
    
 --- 
 

@@ -77,16 +77,15 @@ A Project can be very simple (micro-project) or pretty complex.
 We believe the first option is better to start. Your portfolio should naturally look like this:
 
 ```
-   z
-  yyy
- xxxxx
-0000000
+   z    -- a few larger projects
+  yyy   -- enough mid-size projects
+ xxxxx  -- quite a lot of mini-projects
+0000000 -- an abundance of tasks like algorithmic challenges
 ```
 
-Where `0` stand for tasks, `x` for mini-projects, `y` for mid-size ones, and finally `z` for 1-3 reasonably larger projects.
-A portfolio with only a couple of large projects, where everything else signals "I'm a Beginner", looks like you just forked
-those things. You don't want to make this impression. Even if you're not going to show your Github profile to anyone it's 
-better to learn this way because it's much easier to experiment with things in isolation. And experiments are key to successul learning.
+A portfolio with just a couple of large projects and otherwise empty (if everything else signals "I'm a Beginner") looks like you've just forked
+those things. You don't want to make such an impression. Even if you're not going to show your Github profile to anyone, it's 
+better to learn this way. It's much easier to experiment with things in isolation, and experiments are the key to successful learning.
 
 ## License
 

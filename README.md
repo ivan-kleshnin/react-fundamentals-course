@@ -87,8 +87,8 @@ There is indeed a place for copy-paste but, at the end:
 
 > Other tips?
 
-When you're at it, beware that the official documentation is twofold. E.g. https://beta.reactjs.org/learn/adding-interactivity#responding-to-events presents an initial overview and https://beta.reactjs.org/learn/responding-to-events goes into more details on the same topic. We've seen people completely
-omitting the latter page as both things are named identically.
+When you're at it, beware that the official documentation is twofold. E.g. https://beta.reactjs.org/learn/adding-interactivity#responding-to-events presents an initial overview while https://beta.reactjs.org/learn/responding-to-events goes into more details on the same topic. We've seen people completely
+omitting the latter page as both things are named identically and the title is updated in the right sidebar, when you scroll. It's a UX gotcha that should better be fixed.
 
 ## Links
 
@@ -244,11 +244,13 @@ Read the following sections of the official documentation:
 ### Bonus Questions
 
 - Google a topic of "State Management" in React. What problems do they solve?
+- What is "Unidirectional Data Flow" in React? Does React support Bidirectional and/or other flows?
 - Do you need an extra library like Redux if you have `useState / useReducer`? Try to make your own judgement.
 - Don't miss React-Query and uRQL as alternatives to classic state management solutions.
 
 ### Bonus Practice
 
+- Compare alternative solutions with a single `useState`, multiple `useState`, single `useReducer` for the same case (do all implementations you can imagine)
 - Experiment with [Immer](https://github.com/immerjs/immer)
 - Experiment with any state management library e.g. [Zustand](https://github.com/pmndrs/zustand)
    

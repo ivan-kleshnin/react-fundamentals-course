@@ -37,7 +37,7 @@ But at the end it's up to you. There're many ways to study and learning things i
 
 ### Extending the Program
 
-The home tasks are intentionally minimalistic, feel free to extend them whenever you feel like it.
+Home exercises are intentionally minimalistic, feel free to extend them whenever you feel like it.
 You should find your own perfect pace and balance between squeezing the most out of a single task and moving forward.
 Choose one or two (or none) of the following options:
 - Add more features to examples (we'll be giving some tips)
@@ -45,9 +45,22 @@ Choose one or two (or none) of the following options:
 - Use TypeScript instead of JavaScript (only if you already learned TS)
 - Take Bonus tasks (we'll be giving suggestions)
 
+Tip: do not enrich your solutions until you finished all of them (for a particular section). It's always 
+better to have at least two iterations and revisit your work with fresh eyes. In other words: 
+
+```
+implement 1.1 -> implement 1.2 -> improve 1.1 -> improve 1.2
+```
+
+might work better than 
+
+```
+implement and extend 1.1 -> implement and extend 1.2
+```
+
 Good luck!
 
-## TOC
+## Table of Contents
 
 - Section 0: Prerequisites
 - Section 1: React and JSX
@@ -86,6 +99,29 @@ We believe the first option is better to start. Your portfolio should naturally 
 A portfolio with just a couple of large projects and otherwise empty (if everything else signals "I'm a Beginner") looks like you've just forked
 those things. You don't want to make such an impression. Even if you're not going to show your Github profile to anyone, it's 
 better to learn this way. It's much easier to experiment with things in isolation, and experiments are the key to successful learning.
+
+## Section-1: 
+
+### Theory 
+- https://beta.reactjs.org/learn/thinking-in-react
+- https://beta.reactjs.org/learn/describing-the-ui
+
+### Practice
+
+Implement and optionally extend
+
+- https://react-fundamentals-conds-loops.vercel.app/task1
+- https://react-fundamentals-conds-loops.vercel.app/task2
+(использовать условия и циклы, по необходимости)
+
+Вопросы:
+  - Что такое JSX? Во что компилируется JSX? Что такое Hyperscript?
+  - В чём проблема следующего кода `{array.length && <div>...</div>}`
+
+Бонусная практика:
+  - Потестировать все варианты реализации условий в JSX, определить личные предпочтения
+  - Потестировать все варианты реализаций циклов в JSX, определить личные предпочтения
+
 
 ## License
 

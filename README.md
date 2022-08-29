@@ -58,4 +58,13 @@ Good luck!
 - Section 6: Other Topics
 - Section 7: Final Practice
 
+## License
+
+[**CCA 3.0**](https://creativecommons.org/licenses/by/3.0/deed.en)
+
+(Free to share and modify. **Attribution required**)
+
+--- 
+
+Please ★ this repo to support our work!
 

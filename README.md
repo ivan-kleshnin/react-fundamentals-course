@@ -60,11 +60,20 @@ implement and extend 1.1 -> implement and extend 1.2
 
 Good luck!
 
+## FAQ
+
+> Should I learn React with hooks following the [beta](https://beta.reactjs.org/) docs or should
+> I stick to the [original](https://reactjs.org/) one first?
+
+In 2022 hooks are everywhere and there's simply no justification to learn legacy React (with classes and lifecycle events) for beginners.
+It's a shame and embarassment that the documentation of such a popular tool lags far behind the reality. Definitely go for the beta docs 
+and refer to 3rd party sources on necessity. Preserve your time & energy for something that is not outdated.
+
 ## Table of Contents
 
 - Section 0: Prerequisites
 - Section 1: React and JSX
-- Section 2: State and Render
+- Section 2: States and Updates
 - Section 3: Data Flow(s)
 - Section 4: Effects
 - Section 5: Forms 
@@ -100,28 +109,82 @@ A portfolio with just a couple of large projects and otherwise empty (if everyth
 those things. You don't want to make such an impression. Even if you're not going to show your Github profile to anyone, it's 
 better to learn this way. It's much easier to experiment with things in isolation, and experiments are the key to successful learning.
 
-## Section-1: 
+## Section-1: React and JSX
 
 ### Theory 
+
+Read the following sections of the official documentation:
+
+- https://beta.reactjs.org/learn/installation
 - https://beta.reactjs.org/learn/thinking-in-react
 - https://beta.reactjs.org/learn/describing-the-ui
 
+### Questions
+
+- What is React? Compare it to a couple of alternatives (jQuery, Vue, Angular, etc), tell similarities and differences.
+- What is JSX? What problem does it solve?
+- What JSX compiles to? What is Hyperscript? (hing: google "hyperscript jsx" exactly, the term has multiple meanings)
+- Describe different ways to add React to a web page 
+
 ### Practice
 
-Implement and optionally extend
+Implement and optionally extend the following projects:
 
 - https://react-fundamentals-conds-loops.vercel.app/task1
 - https://react-fundamentals-conds-loops.vercel.app/task2
-(использовать условия и циклы, по необходимости)
 
-Вопросы:
-  - Что такое JSX? Во что компилируется JSX? Что такое Hyperscript?
-  - В чём проблема следующего кода `{array.length && <div>...</div>}`
+Note: use props (not state) to add a level of interactivity to the pagination. You can access the current page like:
 
-Бонусная практика:
-  - Потестировать все варианты реализации условий в JSX, определить личные предпочтения
-  - Потестировать все варианты реализаций циклов в JSX, определить личные предпочтения
+```js
+let query = (new URL(document.location)).searchParams
+let p = Number(query.get("p")) || 1 // current page
+```
 
+### Bonus Practice
+
+- Find and compare ALL ways to have a condition in JSX.
+- Find and compare ALL ways to have a loop in JSX.
+- Implement a `Rating` component using HTML entities `&star;` and `&starf;` (not interactive for now!)
+
+## Section 2: States and Updates
+
+### Theory 
+
+Read the following sections of the official documentation:
+
+- https://beta.reactjs.org/learn/adding-interactivity
+- https://beta.reactjs.org/learn/managing-state (up to the "Reducer" and "Context" topics, keep them for later)
+
+### Questions
+
+- What are React hooks? Why they are necessary?
+- What rules should hooks obey?
+- How to represent state in React?
+- Describe the API of `setState`? Is is sync or async?
+- What happens after sequential `setState` calls like `setCounter(1); setCounter(2)`?
+- <button type="button"> vs <button type="submit">
+
+### Practice
+
+Implement and optionally extend the following projects:
+
+- https://react-fundamentals-tweet-form.vercel.app
+- https://react-fundamentals-bmi-calculator.vercel.app
+- https://react-fundamentals-rgb.vercel.app
+- https://react-fundamentals-password-generator.vercel.app
+
+### Bonus Questions
+
+- What is a "state" of a system in general?
+- How React `setState` batching works?
+- Is is possible to write a code to be executed "exactly after" a state change? 
+
+### Bonus Practice
+
+- Add RGB &harr; CMY switcher to the Sliders project
+- Add "Copy" button to the Password project
+   
+--- 
 
 ## License
 

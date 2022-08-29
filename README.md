@@ -7,7 +7,7 @@ The course is practice-oriented as we believe it's the best way to learn for mos
 
 ### Learning Sequences
 
-The content largely represents chapter [4.2](https://raw.githubusercontent.com/ivan-kleshnin/frontend-mindmaps/master/intern.png)
+The content largely represents [part 4.2](https://raw.githubusercontent.com/ivan-kleshnin/frontend-mindmaps/master/intern.png)
 from the "Frontend/React Intern" roadmap. But the point to note is that all of the following learning sequences are possible 
 and acceptable:
 
@@ -49,12 +49,13 @@ Good luck!
 
 ## TOC
 
-- Lesson 0: Prerequisites
-- Lesson 1: React and JSX
-- Lesson 2: State and Render
-- Lesson 4: Data Flow in more complex apps
-- Lesson 5: Effects
-- Lesson 6: Forms 
-- Lesson 7: Other
+- Section 0: Prerequisites
+- Section 1: React and JSX
+- Section 2: State and Render
+- Section 3: Data Flow(s)
+- Section 4: Effects
+- Section 5: Forms 
+- Section 6: Other Topics
+- Section 7: Final Practice
 
 

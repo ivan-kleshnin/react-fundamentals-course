@@ -1,9 +1,9 @@
 # Course "React Fundamentals"
 
 The program is designed for self learning individuals or to be used as a part of learning with a mentor.
-The course is practice-oriented and we believe it's the best way to learn for most students.
+The course is practice-oriented as we believe it's the best way to learn for most students.
 
-## Blitz FAQ
+## Introduction
 
 ### Learning Sequences
 
@@ -25,24 +25,24 @@ the gist of HTML & CSS and delay real practice of Markup for later:
 Markup 0 -> JavaScript -> React -> Markup I -> TypeScript
 ```
 
-There're, of course, much more other important topics like `Async Programming`, `Functional Programming` we omit here for the sake of brevity.
-The underline is that it's possible to go through this course knowing "just JS + HTML", "just TS + HTML", "JS + CSS + HTML", etc. 
-No knowledge is strictly required besides "Basic Programming / JavaScript". 
+There're, admittedly, other important topics like `Async Programming` or `Functional Programming` we kinda skip here
+to not go insane with combinatorics. The underline is that it's possible to go through this course knowing `just JS + HTML`, `just TS + HTML`, `JS + CSS + HTML`, etc. 
+No knowledge is strictly required besides `Basic Programming / JavaScript`. Please refer to the above roadmap for more details.
 
 ### Learning in Parallel
 
 We don't recommend learning large topics in parallel. But it's possible to "Learn X" and "Improve at Y" at the same time.
-And that is exactly the reason we think it's better to learn React after CSS/HTML/JS/TS: to repeat and practice all of them.
-But at the end it's up to you. There're many ways to study and learning things in suboptimal way is much better than nothing.
+And that is exactly the reason we think it's better to learn React after CSS, HTML, JS/TS – to repeat and practice all of them.
+But at the end it's up to you. There're many ways to study and learning things in suboptimal way is still much better than nothing.
 
 ### Extending the Program
 
-The home tasks intentionally minimalistic, feel free to extend them whenever you feel like you can.
+The home tasks are intentionally minimalistic, feel free to extend them whenever you feel like it.
 You should find your own perfect pace and balance between squeezing the most out of a single task and moving forward.
 Choose one or two (or none) of the following options:
 - Add more features to examples (we'll be giving some tips)
-- Improve the UI/UX, make the design look more complete
-- Use TypeScript instead of JavaScript
+- Improve the UI/UX, make the design look more complete and professional
+- Use TypeScript instead of JavaScript (only if you already learned TS)
 - Take Bonus tasks (we'll be giving suggestions)
 
 Good luck!

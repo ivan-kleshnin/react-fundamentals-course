@@ -239,7 +239,7 @@ Read the following sections of the official documentation:
 
 - ToDo app: https://react-fundamentals-todo-app.vercel.app (independently from docs, if you haven't yet)
 - Diary app: https://react-fundamentals-diary-app.vercel.app
-- Ecart app: https://react-fundamentals-todo-app.vercel.app
+- Ecart app: https://react-fundamentals-ecart-app.vercel.app
    
 ### Bonus Questions
 

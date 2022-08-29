@@ -251,22 +251,22 @@ Read the following sections of the official documentation:
 ### Bonus Practice
 
 - Compare alternative solutions with a single `useState`, multiple `useState`, single `useReducer` for the same case (do all implementations you can imagine)
-- Experiment with [Immer](https://github.com/immerjs/immer)
-- Experiment with any state management library e.g. [Zustand](https://github.com/pmndrs/zustand)
+- Experiment with [Immer](https://github.com/immerjs/immer) library (state management helper)
+- Experiment with any dedicated state management library e.g. [Zustand](https://github.com/pmndrs/zustand)
    
-## Section 4
-   
-WIP   
-
-## Section 5
+## Section 4: Effects
    
 WIP   
 
-## Section 6
+## Section 5: Forms 
+   
+WIP   
+
+## Section 6: Other Topics
    
 WIP 
 
-## Section 7
+## Section 7: Final Practice
    
 WIP 
    

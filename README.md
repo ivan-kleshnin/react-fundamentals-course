@@ -71,9 +71,9 @@ and refer to 3rd party sources on necessity. Preserve your time & energy for som
 
 ## Table of Contents
 
-- Section 0: Prerequisites
-- Section 1: React and JSX
-- Section 2: States and Updates
+- [Section 0: Prerequisites](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-0-prerequisites)
+- [Section 1: React and JSX](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-1-react-and-jsx)
+- [Section 2: States and Updates](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-2-states-and-updates)
 - Section 3: Data Flow(s)
 - Section 4: Effects
 - Section 5: Forms 

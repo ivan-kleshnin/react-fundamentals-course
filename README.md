@@ -31,9 +31,9 @@ No knowledge is strictly required besides `Basic Programming / JavaScript`. Plea
 
 ### Learning in Parallel
 
-We don't recommend learning large topics in parallel. But it's possible to "Learn X" and "Improve at Y" at the same time.
-And that is exactly the reason we think it's better to learn React after CSS, HTML, JS/TS – to repeat and practice all of them.
-But at the end it's up to you. There're many ways to study and learning things in suboptimal way is still much better than nothing.
+We don't recommend to learn more than one big topic in parallel. But it's possible and even encouraged to "Learn X" and "Improve at Y" at the same time.
+And that is exactly the reason we think it's better to learn React after CSS, HTML, JS/TS – to repeat and practice what you've learned.
+But, at the end, it's up to you. There're many ways to study and learning things in suboptimal way is still much better than nothing.
 
 ### Extending the Program
 

@@ -134,7 +134,7 @@ A portfolio with just a couple of large projects and otherwise empty (if everyth
 those things. You don't want to make such an impression. Even if you're not going to show your Github profile to anyone, it's 
 better to learn this way. It's much easier to experiment with things in isolation, and experiments are the key to successful learning.
 
-## Section-1: React and JSX
+## Section 1: React and JSX
 
 ### Theory 
 
@@ -253,6 +253,22 @@ Read the following sections of the official documentation:
 - Compare alternative solutions with a single `useState`, multiple `useState`, single `useReducer` for the same case (do all implementations you can imagine)
 - Experiment with [Immer](https://github.com/immerjs/immer)
 - Experiment with any state management library e.g. [Zustand](https://github.com/pmndrs/zustand)
+   
+## Section 4
+   
+WIP   
+
+## Section 5
+   
+WIP   
+
+## Section 6
+   
+WIP 
+
+## Section 7
+   
+WIP 
    
 --- 
 

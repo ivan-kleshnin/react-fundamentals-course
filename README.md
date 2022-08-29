@@ -1,7 +1,7 @@
 # Course "React Fundamentals"
 
 The program is designed for self learning individuals or to be used as a part of learning with a mentor.
-The course is practice-oriented as we believe it's the best way to learn for most students.
+The course is practice-oriented as we believe it's the best way to learn for most students. The content is WIP.
 
 ## Introduction
 
@@ -57,6 +57,36 @@ Good luck!
 - Section 5: Forms 
 - Section 6: Other Topics
 - Section 7: Final Practice
+
+## Section 0: Prerequisites
+
+1. Setup your IDE (install VSCode or WebStorm, apply necessary customizations)
+2. If you're familiar with Git & Github we recommend to track your progress there. In case you don't and you want to share you work – use Dropbox/Google Drive/...
+3. Fill the profile at Github. Empty profiles are the scourge.
+4. Customize `.gitignore` if necessary. Add `.idea` and other relevant (for your tools) folders there.
+
+> How to stucture my Repositories?
+
+We propose to have one repo per Project or per Task Set. For example, "ToDo app project" would have its own dedicated repo.
+A set of tasks like "Async Challenges" or "Common Algorithms" would have their own repos. A Task is something that fits
+into a file and is usually represented as a single function (not dogmatically: it can be 2-3 exported functions plus a bunch of helpers in more complex case).
+A Project can be very simple (micro-project) or pretty complex. 
+
+> What's better: implement more but smaller projects or fewer but larger ones?
+
+We believe the first option is better to start. Your portfolio should naturally look like this:
+
+```
+   z
+  yyy
+ xxxxx
+0000000
+```
+
+Where `0` stand for tasks, `x` for mini-projects, `y` for mid-size ones, and finally `z` for 1-3 reasonably larger projects.
+A portfolio with only a couple of large projects, where everything else signals "I'm a Beginner", looks like you just forked
+those things. You don't want to make this impression. Even if you're not going to show your Github profile to anyone it's 
+better to learn this way because it's much easier to experiment with things in isolation. And experiments are key to successul learning.
 
 ## License
 

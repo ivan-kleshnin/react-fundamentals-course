@@ -96,8 +96,8 @@ If you're going to go through this course using TypeScript: https://react-typesc
 
 ## Table of Contents
 
-- [Section 0: Prerequisites](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-0-prerequisites)
-- [Section 1: React and JSX](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-1-react-and-jsx)
+- [Section 0: Prerequisites](#section-0-prerequisites)
+- [Section 1: React and JSX](./#section-1-react-and-jsx)
 - [Section 2: States, Events, Updates](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-2-states-events-updates)
 - [Section 3: Data Flow(s)](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-3-data-flows)
 - Section 4: Effects

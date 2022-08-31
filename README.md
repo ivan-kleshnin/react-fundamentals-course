@@ -5,18 +5,19 @@ The course is practice-oriented as we believe it's the best way to learn for mos
 
 The program is split on sections which include the following parts:
 
-- Theory
-- Questions
-- Practice
-- Bonus Questions
-- Bonus Practice
+- **📜 Theory**
+- **🧠 Questions**
+- **🛠 Practice**
+- **❓Bonus Questions**
+- **❗Bonus Practice**
 
-You're expected to move through this in order. Start from Theory giving it a couple of reads.
-Self-check yourself with Questions, then Practice implementing projects or solving other tasks.
+You're expected to move through this in order. Start from **Theory** giving it a couple of reads.
+Self-check yourself with **Questions**, then implement projects to **Practice**.
 Move back to Theory as necessary. Compare your solutions with ours at the end of each
 section.
 
-Bonus parts are optional and you'll find them more challenging.
+**Bonus** parts are typically more challenging and therefore optional. You can skip them first
+and return back on the second iteration, for example.
 
 ## Learning Advices
 
@@ -125,14 +126,7 @@ already familiar with React docs (and we mean those modern docs).
 When you're at it, beware that the official documentation is twofold. E.g. https://beta.reactjs.org/learn/adding-interactivity#responding-to-events presents an initial overview while https://beta.reactjs.org/learn/responding-to-events goes into more details on the same topic. We've seen people completely
 omitting the latter page as both things are named identically and the title is updated in the right sidebar, when you scroll. It's a UX gotcha that should better be fixed.
 
-## Solutions
-
-Each task is (will be) accompanied with a verified solution. You see them in this folder.
-We strongly discourage you to look at 
-
-## Links
-
-1. If you're going to go through this course using TypeScript: https://react-typescript-cheatsheet.netlify.app
+If you're going to go through this course using TypeScript here's a good resource: https://react-typescript-cheatsheet.netlify.app
 
 ## Table of Contents
 

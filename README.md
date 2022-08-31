@@ -159,7 +159,7 @@ We believe the first option is better to start. Your portfolio should naturally 
 
 ```
    z    -- a few larger projects
-  yyy   -- enough mid-size projects
+  yyy   -- several mid-size projects
  xxxxx  -- quite a lot of mini-projects
 0000000 -- an abundance of tasks like algorithmic challenges
 ```

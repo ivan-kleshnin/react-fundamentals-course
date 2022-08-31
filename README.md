@@ -62,7 +62,7 @@ and, eventually, your knowledge.
 
 ### Extending the Program
 
-Course projects are intentionally minimalistic so feel free to extend and modify them in whatever way.
+Home exercises are intentionally minimalistic, feel free to extend them whenever you feel like it.
 You should find your own perfect pace and balance between squeezing the most out of a single task and moving forward.
 Choose one or two (or none) of the following options:
 - Add more features to examples (we'll be giving some tips)
@@ -94,13 +94,10 @@ In 2022 hooks are everywhere and there's simply no justification to learn legacy
 It's a shame and embarassment that the documentation of such a popular tool lags far behind the reality. Definitely go for the beta docs 
 and refer to 3rd party sources on necessity. Preserve your time & energy for something that is not outdated.
 
-> Can I use other "theory" sources in parallel
-
 > What is considered a project solution? 
 
-You should be able to implement a solution independently. You can obviously refer to documentation 
-for something you keep forgetting, or to revisit unclear concepts. But you should NOT copy-paste 
-an existing solution and imagine you'd solve it similarly yourself. You'd not.
+You should be able to implement a solution independently. You can obviously refer to documentation for something you keep forgetting,
+or to revisit unclear concepts. But you should NOT copy-paste an existing solution and imagine you'd solve it similarly yourself. You'd not.
 
 > Is it ok to ever copy-paste code then?
 
@@ -247,10 +244,10 @@ Read the following sections of the official documentation:
 
 Implement and optionally extend the following projects:
 
-- [Tweet Form](https://react-fundamentals-tweet-form.vercel.app)
-- [BMI Calculator](https://react-fundamentals-bmi-calculator.vercel.app)
-- [RGB Sliders](https://react-fundamentals-rgb.vercel.app)
-- [Password Generator](https://react-fundamentals-password-generator.vercel.app)
+- Tweet Form: https://react-fundamentals-tweet-form.vercel.app
+- BMI Calculator: https://react-fundamentals-bmi-calculator.vercel.app
+- RGB Sliders: https://react-fundamentals-rgb.vercel.app
+- Password Generator: https://react-fundamentals-password-generator.vercel.app
 
 ### Bonus Questions
 

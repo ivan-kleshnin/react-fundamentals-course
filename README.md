@@ -1,11 +1,26 @@
 # Course "React Fundamentals"
 
 The program is designed for self learning individuals or to be used as a part of learning with a mentor.
-The course is practice-oriented as we believe it's the best way to learn for most students. The content is WIP.
+The course is practice-oriented as we believe it's the best way to learn for most students. The content is WIP 🚧
 
-## Introduction
+The program is split on sections which include the following parts:
 
-### Learning Sequences
+- Theory
+- Questions
+- Practice
+- Bonus Questions
+- Bonus Practice
+
+You're expected to move through this in order. Start from Theory giving it a couple of reads.
+Self-check yourself with Questions, then Practice implementing projects or solving other tasks.
+Move back to Theory as necessary. Compare your solutions with ours at the end of each
+section.
+
+Bonus parts are optional and you'll find them more challenging.
+
+## Learning Advices
+
+### Roadmap
 
 The content largely represents [part 4.2](https://raw.githubusercontent.com/ivan-kleshnin/frontend-mindmaps/master/intern.png)
 from the "Frontend/React Intern" roadmap. But the point to note is that all of the following learning sequences are possible 
@@ -35,15 +50,25 @@ We don't recommend to learn more than one big topic in parallel. But it's possib
 And that is exactly the reason we think it's better to learn React after CSS, HTML, JS/TS – to repeat and practice what you've learned.
 But, at the end, it's up to you. There're many ways to study and learning things in suboptimal way is still much better than nothing.
 
+Within a single learning sequence, however, we recommend and encourage you to use as many sources
+as possible. Use Google, Stackoveflow, watch courses, YouTube, read books, listen podcasts. 
+The links to theory we provide are just the tip of the information iceberg you have to (metaphorically) consume. 
+We'll be expanding our references but it's clear that people come to this course with different backgrounds, 
+preferences, etc. so it's impossible to make a single "optimal list". 
+
+You'll help yourself tremendously if you read/watch double the amount of theory we propose. Each
+author and resource provides a slightly different angle of view which is helpful to solidify your understanding
+and, eventually, your knowledge.
+
 ### Extending the Program
 
-Home exercises are intentionally minimalistic, feel free to extend them whenever you feel like it.
+Course projects are intentionally minimalistic so feel free to extend and modify them in whatever way.
 You should find your own perfect pace and balance between squeezing the most out of a single task and moving forward.
 Choose one or two (or none) of the following options:
 - Add more features to examples (we'll be giving some tips)
 - Improve the UI/UX, make the design look more complete and professional
 - Use TypeScript instead of JavaScript (only if you already learned TS)
-- Take Bonus tasks (we'll be giving suggestions)
+- Take Bonus challenges (we'll be giving suggestions)
 
 Tip: do not enrich your solutions until you finished all of them (for a particular section). It's always 
 better to have at least two iterations and revisit your work with fresh eyes. In other words: 
@@ -69,10 +94,13 @@ In 2022 hooks are everywhere and there's simply no justification to learn legacy
 It's a shame and embarassment that the documentation of such a popular tool lags far behind the reality. Definitely go for the beta docs 
 and refer to 3rd party sources on necessity. Preserve your time & energy for something that is not outdated.
 
+> Can I use other "theory" sources in parallel
+
 > What is considered a project solution? 
 
-You should be able to implement a solution independently. You can obviously refer to documentation for something you keep forgetting,
-or to revisit unclear concepts. But you should NOT copy-paste an existing solution and imagine you'd solve it similarly yourself. You'd not.
+You should be able to implement a solution independently. You can obviously refer to documentation 
+for something you keep forgetting, or to revisit unclear concepts. But you should NOT copy-paste 
+an existing solution and imagine you'd solve it similarly yourself. You'd not.
 
 > Is it ok to ever copy-paste code then?
 
@@ -85,21 +113,36 @@ There is indeed a place for copy-paste but, at the end:
 - you will likely remember what you have written,
 - you will likely forget what you have copied.
 
+> What above solutions to the tasks/projects?
+
+You will easily find them, just [scroll up](#course-react-fundamentals). Looking at any existing
+solution *before* you tried your best is discouraged for the same reasons. The documentation and other 
+theory sources will give you enough examples and references to solve a practical part in the same vein. 
+The only way to make it difficult is to skip the supposedly "boring" theory and immediately practice, 
+copy-pasting everything you've failed to come up to yourself. Please don't do that: you'll just spoil your 
+learning experience and gain nothing. You should start with Practice over Theory only if you're
+already familiar with React docs (and we mean those modern docs). 
+
 > Other tips?
 
 When you're at it, beware that the official documentation is twofold. E.g. https://beta.reactjs.org/learn/adding-interactivity#responding-to-events presents an initial overview while https://beta.reactjs.org/learn/responding-to-events goes into more details on the same topic. We've seen people completely
 omitting the latter page as both things are named identically and the title is updated in the right sidebar, when you scroll. It's a UX gotcha that should better be fixed.
 
+## Solutions
+
+Each task is (will be) accompanied with a verified solution. You see them in this folder.
+We strongly discourage you to look at 
+
 ## Links
 
-If you're going to go through this course using TypeScript: https://react-typescript-cheatsheet.netlify.app
+1. If you're going to go through this course using TypeScript: https://react-typescript-cheatsheet.netlify.app
 
 ## Table of Contents
 
-- [Section 0: Prerequisites](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-0-prerequisites)
-- [Section 1: React and JSX](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-1-react-and-jsx)
-- [Section 2: States, Events, Updates](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-2-states-events-updates)
-- [Section 3: Data Flow(s)](https://github.com/ivan-kleshnin/react-fundamentals-course/blob/main/README.md#section-3-data-flows)
+- [Section 0: Prerequisites](#section-0-prerequisites)
+- [Section 1: React and JSX](#section-1-react-and-jsx)
+- [Section 2: States, Events, Updates](#section-2-states-events-updates)
+- [Section 3: Data Flow(s)](#section-3-data-flows)
 - Section 4: Effects
 - Section 5: Forms 
 - Section 6: Other Topics
@@ -204,10 +247,10 @@ Read the following sections of the official documentation:
 
 Implement and optionally extend the following projects:
 
-- Tweet Form: https://react-fundamentals-tweet-form.vercel.app
-- BMI Calculator: https://react-fundamentals-bmi-calculator.vercel.app
-- RGB Sliders: https://react-fundamentals-rgb.vercel.app
-- Password Generator: https://react-fundamentals-password-generator.vercel.app
+- [Tweet Form](https://react-fundamentals-tweet-form.vercel.app)
+- [BMI Calculator](https://react-fundamentals-bmi-calculator.vercel.app)
+- [RGB Sliders](https://react-fundamentals-rgb.vercel.app)
+- [Password Generator](https://react-fundamentals-password-generator.vercel.app)
 
 ### Bonus Questions
 
@@ -237,9 +280,9 @@ Read the following sections of the official documentation:
 
 ### Practice
 
-- ToDo app: https://react-fundamentals-todo-app.vercel.app (independently from docs, if you haven't yet)
-- Diary app: https://react-fundamentals-diary-app.vercel.app
-- Ecart app: https://react-fundamentals-ecart-app.vercel.app
+- [3.1 Todo App](https://react-fundamentals-todo-app.vercel.app) (solve independently from docs, if you haven't yet)
+- [3.2 Food Diary](https://react-fundamentals-diary-app.vercel.app)
+- [3.3 Ecart App](https://react-fundamentals-ecart-app.vercel.app)
    
 ### Bonus Questions
 
@@ -277,6 +320,7 @@ WIP
 [**CCA 3.0**](https://creativecommons.org/licenses/by/3.0/deed.en)
 
 (Free to share and modify. **Attribution required**)
+(^ it concerns the sources. You can publish your own solutions in your portfolio without attributions)
 
 --- 
 

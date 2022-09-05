@@ -260,8 +260,9 @@ Implement and optionally extend the following projects:
 
 ### 🛠 Bonus Practice
 
-- Extend "RGB Sliders" to support CMY color model.
-- Extend "Password Generator" to support password copying (to the clipboard).
+- Implement two versions of 2.3: with multiple `useState` and with a single object-based `useState`.
+- Extend 2.4 to support password copying (to the clipboard).
+- Extend 2.3 to support CMY color model.
    
 ## Section 3: Data Flow(s)
 
@@ -292,7 +293,7 @@ Read the following sections of the official documentation:
 
 ### 🛠 Bonus Practice
 
-- Compare alternative solutions with a single `useState`, multiple `useState`, single `useReducer` for the same case (do all implementations you can imagine).
+- Implement three versions of 3.1: with a single `useState`, multiple `useState`, single `useReducer` for the same case (do all implementations you can imagine).
 - Experiment with [Immer](https://github.com/immerjs/immer) library (state management helper).
 - Experiment with any dedicated state management library e.g. [Zustand](https://github.com/pmndrs/zustand).
    
@@ -325,7 +326,7 @@ Order the following:
 
 - [4.1 Digital Timer](https://react-fundamentals-digital-timer.vercel.app)
 - [4.2 Github Profile 1](https://react-fundamentals-github-profile1.vercel.app) (load Your profile)
-- [4.3 Github Profile 2](https://react-fundamentals-github-profile2.vercel.app) (...)
+- [4.3 Github Profile 2](https://react-fundamentals-github-profile2.vercel.app) (fetch 2 chunks of data in parallel)
 
 ### 🤔 Bonus Questions
 
@@ -336,7 +337,7 @@ Order the following:
 
 ### 🛠 Bonus Practice
 
-- Implement parallel fetching in 4.3 in two ways: parallel fetching with 2 hooks and with 1 hook + `Promise.all`
+- Implement two versions of 4.3: with 2 hooks and with 1 hook + `Promise.all`
 - Find a public weather API and implement an app to display current weather in your location.
 - Find a public (crypto)currency rate API an implement an app that would display it (with "realtime" updates).
 - Implement analogous clock (optionally with CSS transitions for smoother movements).

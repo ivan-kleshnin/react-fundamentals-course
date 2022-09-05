@@ -337,10 +337,10 @@ Order the following:
 
 ### 🛠 Bonus Practice
 
+- Extend 4.2 to support search – to display any public github profile.
 - Implement two versions of 4.3: with 2 hooks and with 1 hook + `Promise.all`
 - Find a public weather API and implement an app to display current weather in your location.
 - Find a public (crypto)currency rate API an implement an app that would display it (with "realtime" updates).
-- Implement analogous clock (optionally with CSS transitions for smoother movements).
 
 ## Section 5: Forms 
    
@@ -352,7 +352,7 @@ WIP
 
 ## Section 7: Final Practice
    
-WIP 
+- Implement analogous clock (optionally with CSS transitions for smoother movements).
    
 --- 
 

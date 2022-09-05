@@ -134,7 +134,7 @@ If you're going to go through this course using TypeScript here's a good resourc
 - [Section 1: React and JSX](#section-1-react-and-jsx)
 - [Section 2: States, Events, Updates](#section-2-states-events-updates)
 - [Section 3: Data Flow(s)](#section-3-data-flows)
-- Section 4: Effects
+- [Section 4: Effects](#section-4-effects)
 - Section 5: Forms 
 - Section 6: Other Topics
 - Section 7: Final Practice

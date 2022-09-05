@@ -7,9 +7,9 @@ The program is split on sections which include the following parts:
 
 - **📜 Theory**
 - **🧠 Questions**
-- **🛠 Practice**
-- **❓Bonus Questions**
-- **❗Bonus Practice**
+- **🔨 Practice**
+- **🤔 Bonus Questions**
+- **🛠 Bonus Practice**
 
 You're expected to move through this in order. Start from **Theory** giving it a couple of reads.
 Self-check yourself with **Questions**, then implement projects to **Practice**.
@@ -170,7 +170,7 @@ better to learn this way. It's much easier to experiment with things in isolatio
 
 ## Section 1: React and JSX
 
-### Theory 
+### 📜 Theory 
 
 Read the following sections of the official documentation:
 
@@ -178,18 +178,19 @@ Read the following sections of the official documentation:
 - https://beta.reactjs.org/learn/thinking-in-react
 - https://beta.reactjs.org/learn/describing-the-ui
 
-### Questions
+### 🧠 Questions
 
 - What is React? Why some people call it a "framework" and other – a "library"?
 - What is JSX? What problem does it solve?
 - Describe different ways to add React to a web page.
+- New VDOM tree, returned from a root component, is compared to... what?
 
-### Practice
+### 🔨 Practice
 
 Implement and optionally extend the following projects:
 
-- Vertical Menu UI: https://react-fundamentals-conds-loops.vercel.app/task1
-- Pagination UI: https://react-fundamentals-conds-loops.vercel.app/task2
+- [1.1 Vertical Menu UI](https://react-fundamentals-conds-loops.vercel.app/task1)
+- [1.2 Pagination UI](https://react-fundamentals-conds-loops.vercel.app/task2)
 
 Note: use props (not state) to add interactivity to both projects (full page reset is expected here). You can access the current page like:
 
@@ -198,99 +199,147 @@ let query = (new URL(document.location)).searchParams
 let p = Number(query.get("p")) || 1 // current page
 ```
 
-### Bonus Questions
+### 🤔 Bonus Questions
 
 - What is Hyperscript? (hint: google "hyperscript jsx" exactly, the term has multiple meanings)
 - Compare React to a couple of popular alternatives (jQuery, Vue, Angular, etc), tell similarities and differences.
 - Are there any successors to React? Is it a good idea to use them in production?
 
-### Bonus Practice
+### 🛠 Bonus Practice
 
 - Find and compare ALL ways to have a condition in JSX.
 - Find and compare ALL ways to have a loop in JSX.
-- Implement a `Rating` component using HTML entities `&star;` and `&starf;` (not interactive for now!)
+- Implement a `Rating` component using HTML entities `&star;` and `&starf;` (not interactive for now!).
 
 ## Section 2: States, Events, Updates
 
-### Theory 
+### 📜 Theory 
 
 Read the following sections of the official documentation:
 
 - https://beta.reactjs.org/learn/adding-interactivity
 - https://beta.reactjs.org/learn/managing-state (up to the "Reducer" and "Context" topics, keep them for later)
 
-### Questions
+### 🧠 Questions
 
 - What are React hooks? Why they are necessary?
 - What rules should hooks obey?
 - How to represent state in React?
 - Describe the API of `setState`? Is is sync or async?
 - What happens after sequential `setState` calls like `setCounter(1); setCounter(2)`?
-- Describe the order of rendering of the following hierarchy:
+- Describe the order of renders of the following hierarchy:
 
 ```
 <Component1>
-  <Component2/>
+  <Component2>
+    <Component3/>
+  </Component2>
 </Component1>
+
+Order the following:
+- Component3 renders?
+- Component1 renders?
+- Component2 renders?
 ```
 
-### Practice
+### 🔨 Practice
 
 Implement and optionally extend the following projects:
 
-- Tweet Form: https://react-fundamentals-tweet-form.vercel.app
-- BMI Calculator: https://react-fundamentals-bmi-calculator.vercel.app
-- RGB Sliders: https://react-fundamentals-rgb.vercel.app
-- Password Generator: https://react-fundamentals-password-generator.vercel.app
+- [2.1 Tweet Form](https://react-fundamentals-tweet-form.vercel.app)
+- [2.2 BMI Calculator](https://react-fundamentals-bmi-calculator.vercel.app)
+- [2.3 RGB Sliders](https://react-fundamentals-rgb.vercel.app)
+- [2.4 Password Generator](https://react-fundamentals-password-generator.vercel.app)
 
-### Bonus Questions
+### 🤔 Bonus Questions
 
 - Difference between `<button type="button">` and `<button type="submit">`, regarding React?
 - What is a "state of a system" in general?
 - Compare alternative implementations of the Sliders project: with 1 and 3 `useState` (object of numbers vs separate).
 - Is it possible to write a code to be executed "exactly after" a state change? 
 
-### Bonus Practice
+### 🛠 Bonus Practice
 
-- Extend "RGB Sliders" to support CMY color model
-- Extend "Password Generator" to support password copying (to the clipboard)
+- Extend "RGB Sliders" to support CMY color model.
+- Extend "Password Generator" to support password copying (to the clipboard).
    
 ## Section 3: Data Flow(s)
 
-### Theory 
+### 📜 Theory 
 
 Read the following sections of the official documentation:
 
 - https://beta.reactjs.org/learn/managing-state (topics "Reducer" and "Context" you omitted previously)
    
-### Questions
+### 🧠 Questions
 
 - Compare `useState` and `useReducer`: which one is lower level, when to use which?
 - What is React Context? What problem does it solve?
-- Tell the limitations of React context. Hint: what happens with listeners when you update just a part of the context state?
+- Explain the limitations of `Context`. Hint: what happens with listeners when you update just a part of the context state?
 
-### Practice
+### 🔨 Practice
 
 - [3.1 Todo App](https://react-fundamentals-todo-app.vercel.app) (solve independently from docs, if you haven't yet)
 - [3.2 Food Diary](https://react-fundamentals-diary-app.vercel.app)
 - [3.3 Ecart App](https://react-fundamentals-ecart-app.vercel.app)
    
-### Bonus Questions
+### 🤔 Bonus Questions
 
 - Google a topic of "State Management" in React. What problems do they solve?
 - What is "Unidirectional Data Flow" in React? Does React support Bidirectional and/or other flows?
 - Do you need an extra library like Redux if you have `useState / useReducer`? Try to make your own judgement.
 - Don't miss React-Query and uRQL as alternatives to classic state management solutions.
 
-### Bonus Practice
+### 🛠 Bonus Practice
 
-- Compare alternative solutions with a single `useState`, multiple `useState`, single `useReducer` for the same case (do all implementations you can imagine)
-- Experiment with [Immer](https://github.com/immerjs/immer) library (state management helper)
-- Experiment with any dedicated state management library e.g. [Zustand](https://github.com/pmndrs/zustand)
+- Compare alternative solutions with a single `useState`, multiple `useState`, single `useReducer` for the same case (do all implementations you can imagine).
+- Experiment with [Immer](https://github.com/immerjs/immer) library (state management helper).
+- Experiment with any dedicated state management library e.g. [Zustand](https://github.com/pmndrs/zustand).
    
 ## Section 4: Effects
    
-WIP   
+Read the following sections of the official documentation:
+
+- https://beta.reactjs.org/learn/escape-hatches
+
+### 🧠 Questions
+
+- Explain the difference between `useState` and `useRef` hooks.
+- Can the code like `useState(async () => ..., [])` work and why? If not – how to fix it?
+- Does `useEffect` run before or after React updates the DOM?
+- Describe the order of events of the following hierarchy:
+
+```
+<Component1>
+  <Component2/>
+</Component1>
+
+Order the following:
+- Component1 render?
+- Component2 effect?
+- Component1 render?
+- Component2 effect?
+```
+
+### 🔨 Practice
+
+- [4.1 Digital Timer](https://react-fundamentals-digital-timer.vercel.app)
+- [4.2 Github Profile 1](https://react-fundamentals-github-profile1.vercel.app) (load Your profile)
+- [4.3 Github Profile 2](https://react-fundamentals-github-profile2.vercel.app) (...)
+
+### 🤔 Bonus Questions
+
+- Which React hooks you'd use to force-focus an input?
+- Which React libraries dedicated to data-fetching you know?
+- How to update the title (`<title>`) of the page?
+- Is it possible to access the "previous" value of a state? If not – how to make it possible?
+
+### 🛠 Bonus Practice
+
+- Implement parallel fetching in 4.3 in two ways: parallel fetching with 2 hooks and with 1 hook + `Promise.all`
+- Find a public weather API and implement an app to display current weather in your location.
+- Find a public (crypto)currency rate API an implement an app that would display it (with "realtime" updates).
+- Implement analogous clock (optionally with CSS transitions for smoother movements).
 
 ## Section 5: Forms 
    

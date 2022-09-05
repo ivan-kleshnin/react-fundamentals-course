@@ -50,7 +50,7 @@ export default function App() {
   }
 
   return <div className="p-3">
-    <h1 className="h3">Ecart</h1>
+    <h1 className="h3">Ecart App</h1>
     <Cart cart={cart} inventory={inventory} buy={buy} checkout={checkout}/>
     <hr/>
     <Inventory cart={cart} inventory={inventory} buy={buy}/>

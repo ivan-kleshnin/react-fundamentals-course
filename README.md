@@ -135,9 +135,9 @@ If you're going to go through this course using TypeScript here's a good resourc
 - [Section 2: States, Events, Updates](#section-2-states-events-updates)
 - [Section 3: Data Flow(s)](#section-3-data-flows)
 - [Section 4: Effects](#section-4-effects)
-- Section 5: Forms 
-- Section 6: Other Topics
-- Section 7: Final Practice
+- Section 5: Forms (W.I.P)
+- [Section 6: Other Topics](#section-6-custom-hooks-practice)
+- [Section 7: Final Practice](#section-7-final-practice)
 
 ## Section 0: Prerequisites
 
